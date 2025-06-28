@@ -1,0 +1,63 @@
+.mini-dis-flex{
+    display: flex;
+    align-items: center;
+}
+.mini-icon{
+    width: 20px;
+}
+
+
+.mini-nav-container{
+    background-color:rgb(255,255,255);
+    height: 50px;
+    width: 100%;
+    justify-content: space-between;
+    
+    
+    
+
+
+}
+.mini-left-container{
+
+
+}
+.mini-profile-container{
+    border-radius: 50%;
+    background-color: rgb(206,217,223);
+    margin-left: 5px;
+    margin-right: 10px;
+
+}
+.mini-user-name{
+    padding: 5px;
+
+
+}
+
+
+.mini-right-container{
+
+}
+.mini-filter{
+
+    margin-right: 10px;
+}
+.mini-search{
+    margin-right: 10px;
+}
+
+.mini-more{
+    margin-right: 10px;
+}
+
+
+
+
+@media (min-width:700px){
+    .mini-nav-container{
+        display: none;
+        transition: all 1s ease-in-out;
+    
+    }
+}

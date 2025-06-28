@@ -1,0 +1,90 @@
+.fullchat-container{
+   /* background-color: antiquewhite;*/
+    height: 80%;
+    margin-left: 20px;
+    margin-right: 60px;
+    overflow: scroll;
+
+}
+.fullchat-container::-webkit-scrollbar{
+    display: none;
+}
+.user-sen{
+    /*background-color: lightcyan;*/
+    margin-left: 10px;
+    align-items: flex-start;
+    margin-bottom: 5px;
+    
+
+    
+
+}
+.user-pro{
+    background-color:rgb(251,234,213);
+    border-radius: 50%;
+    padding: 10px;
+    margin-right: 10px;
+    align-items: flex-start;
+    margin-top: 3px;
+    
+    
+}
+.user-mg{
+    
+    padding: 10px 12px;
+    border-radius: 5px;
+   /* border-radius: 8px;*/
+
+}
+.user-mg-sen-container{
+    background-color:rgb(245,245,245);
+   /* border: 2px solid;*/
+    margin-right: 10px;
+    border-radius:5px;
+    padding: 10px 12px;
+    
+   /* border-bottom: 5px;*/
+    margin-bottom: 5px;
+    
+
+
+}
+.user-rec{
+   /* background-color: aqua;*/
+    /*background-color: rgb(84, 183, 84);*/
+    justify-content: right;
+    align-items:self-end;
+
+
+
+}
+.user-rec-mg{
+    /*background-color:blueviolet;*/
+    
+    
+    padding: 10px 12px;
+    border-radius: 5px;
+    
+    
+
+
+}
+.user-rec-mg-container{
+    background-color: rgb(231,234,249);
+   /* border: 2px solid;*/
+    margin-right: 10px;
+    border-radius:5px;
+    padding: 10px 12px;
+    
+    /*border-bottom: 5px;*/
+    margin-bottom: 5px;
+}
+.ack{
+    margin-right: 10px;
+    margin-bottom: 10px;
+
+}
+.tick{
+    width: 12px;
+
+}
